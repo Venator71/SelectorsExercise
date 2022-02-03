@@ -1,0 +1,79 @@
+body {
+    background-color: #ced4d8;
+}
+h1 {
+    color: #ac6ac7;
+}
+h2 {
+    color: rgb(255,165,0);
+}
+
+li {color:blue}
+
+p {
+background-color: gold;
+}
+
+input {
+    border: 5px pink dotted 
+}
+.first {
+    background-color: #fff;
+}
+#important {
+
+border: 3px blue dashed
+}
+
+div p {font-size: 30px;}
+
+input[type="email"] {
+
+background-color: #808080;
+}
+
+div:nth-of-type(3) p{
+    background-color: hotpink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 7px rgb(255,255,255) solid;
+}
+
+div:nth-of-type(3) p:nth-of-type(1) em {
+    color: seashell ;font-size: 25px;
+}
+
+/* Bonus Exercise */
+
+/* Bonus 1 */
+div:nth-of-type(2) li:nth-child(n+1):nth-child(-n+2) {
+
+    margin-left: 40px; 
+}
+
+/* Bonus 2 */
+
+label {
+
+    text-transform: lowercase
+    ;
+}
+
+/* Bonus 3 */
+
+#important::first-letter{
+    color:lime; font-size: 90px;
+}
+
+/* Bonus 4 */
+
+h1:hover {
+    color:navy
+}
+
+/* Bonus 5 */
+
+a:visited {
+    color: silver;
+}
