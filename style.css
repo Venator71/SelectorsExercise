@@ -22,7 +22,7 @@ input {
 }
 #important {
 
-border: 3px blue dashed
+border: 3px #0000ff dashed
 }
 
 div p {font-size: 30px;}
@@ -47,10 +47,12 @@ div:nth-of-type(3) p:nth-of-type(1) em {
 /* Bonus Exercise */
 
 /* Bonus 1 */
-div:nth-of-type(2) li:nth-child(n+1):nth-child(-n+2) {
+/* div:nth-of-type(2) li:nth-child(n+1):nth-child(-n+2) {
 
     margin-left: 40px; 
-}
+} */
+
+input:checked {margin-left: 40px;}
 
 /* Bonus 2 */
 
